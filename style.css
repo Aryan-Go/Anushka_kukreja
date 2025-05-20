@@ -1,23 +1,65 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
+  color: white;
 }
-.navbar{
-    text-align: center;
+.navbar {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+  list-style-type: none;
+  position: sticky;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+li {
+  padding: 1.5rem;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.person-info {
+  color: white;
+  /* background-image: url('image-removebg-preview\\(2\).png'); */
+  /* background-blend-mode: multiply; */
+  /* background-size: 100% 100%; */
+  /* background-repeat: none; */
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* padding-left: 1rem; */
+  scale: 0.8;
+  margin-bottom: 0rem;
+}
+.one{
+    color: #d1d5dc;
+    font-size: 10rem;
+    font-weight:lighter;
+}
+.two{
+    color: white;
+    font-weight:900;
+    font-size: 10rem;
+}
+.three{
+    color: #ff006b;
+    font-size: 5rem;
+}
+.four{
+    color: #d1d5dc;
+    font-size: 2rem;
+    font-weight:lighter;
+}
+.loc{
+    color: #d1d5dc;
+    margin-left: 7rem;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-    color: white;
-    font-weight: bold;
-    list-style-type: none;
+    justify-content: space-between;
 }
-li{
-    padding: 1.5rem;
-}
-.center{
-    display: flex;
-    justify-content: center;
-}
-.person-info{
-    background-image: url("https://imgs.search.brave.com/4QHWA3H72b1sjqBkLiwo6EiMhFe3qYk_m_xDTr6pOR0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9kcmFtYXRpYy1w/b3J0cmFpdC1zdHJv/bmcteW91bmctbWFu/LWJsYWNrLXN0YW5k/aW5nLXdpdGgtYXJt/cy1jcm9zc2VkXzE4/MjUyNy05NTg0Lmpw/Zz9zZW10PWFpc19o/eWJyaWQmdz03NDA");
-    width: 10rem;
-    height: 10rem;
+.stars{
+    color: #fdc800;
+    font-size: 1.5rem;
 }
